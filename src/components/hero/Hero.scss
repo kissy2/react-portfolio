@@ -1,0 +1,132 @@
+#hero {
+    background-image:url('../../static/hero-bg.jpg') ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+
+
+
+    .row > * {
+        position: relative;
+    }
+
+    .bg-overlay {
+        background-color: rgba(60, 72, 88, 0.7);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .title-heading img {
+        height: 200px;
+        width: 200px;
+        border: 5px solid #dee2e6;
+        content : url("../../static/hero-me2.png");
+    }
+    .title-heading h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    
+
+    h1, h6 {
+        line-height: 1.5;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+
+    .projects-heading{
+        h1{
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            line-height: 56px;
+            text-transform: uppercase;
+        }
+        h6{
+            font-family: "Open Sens", sans-serif;
+            color: #eee;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+    }
+    
+    .btn:hover {
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        box-shadow: 0 3px 5px 0 rgb(45 132 251 / 30%);
+        border-color: #0062b9 !important;
+    }
+    
+    .btn {
+        font-weight: 600;
+        padding: 8px 34px;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        letter-spacing: 0.5px;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline: none;
+        text-decoration: none;
+        
+    }
+     
+    h6 span {
+        color: #007bff !important;
+    }
+
+    .scroll {
+        width: 28px;
+        height: 50px;
+        max-width: 100vw;
+        max-height: 100vh;
+        border: 2px solid white;
+        border-radius: 50px;
+        padding: 4px;
+        display: inline-flex;
+        align-items: center;
+        margin-top: 15px;
+        
+    }
+    .scroll svg{
+        color:white;
+        animation: wheel 1.3s infinite;
+        -webkit-animation: wheel 1.3s infinite;
+    }
+
+    @keyframes wheel{to{opacity:0;margin-top:20px}}
+    @-webkit-keyframes wheel{to{opacity:0;margin-top:20px}}
+    
+    .scroll:hover{
+        svg {
+            animation : none;
+            -webkit-animation: none;
+        }
+    }
+    @media only screen and (max-width: 992px){
+    &{
+        padding:80px 0;
+    }
+    
+    .projects-heading h1, h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .projects-heading h6, h6 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    }
+}

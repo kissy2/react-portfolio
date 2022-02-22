@@ -1,0 +1,62 @@
+#contact {
+        
+.icon{
+    width:26px;
+    height: 26px;
+}
+
+.text-primary{
+    text-decoration: none;
+}
+
+.form-control {
+    height: 43px;
+    font-size: 14px;
+    color: #161c2d;
+    border-radius: 3px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5 ease-in-out;
+    padding: 6px 20px;
+}
+
+.form-sec-mb textarea {
+    min-height: 192px;
+    max-height: 192px;
+}
+
+.btn-custom{
+    padding: 8px 34px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.status h3 {
+    color: #25b865;
+}
+
+.error_message {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #d6374a;
+    color: #d6374a;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px){
+    .col-sm-12 {
+        text-align : center !important;
+
+    }}
+            
+
+        
+}
