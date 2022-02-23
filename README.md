@@ -11,7 +11,7 @@ Feel free to use it as is or customize it as much as you like.
 
 ## Portfolio Sections
 
-✔️ Summary and About me ans Skills  
+✔️ Summary and About me and Skills  
 ✔️ Work Experience  
 ✔️ Education  
 ✔️ Projects  
