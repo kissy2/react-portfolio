@@ -1,10 +1,19 @@
-### Introduction
+## Introduction
 
-Use this template if you need a developer, data science, software engineer quick portfolio.
+Use this template if you need a developers, data scientists, software engineers quick portfolio.
 
-### Get Started
+## Get Started
 
 All you need to do is change the content of config.js in build/src repository with your own data.
+
+## Portfolio Sections
+
+✔️ Summary and About me ans Skills
+✔️ Work Experience
+✔️ Education
+✔️ Projects
+✔️ Achievements And Certifications 🏆
+✔️ Contact me
 
 ## Available Scripts
 
