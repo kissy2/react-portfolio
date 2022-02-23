@@ -161,7 +161,7 @@ export default function Hero(props) {
   return (
     <div className="position-relative" id="hero">
       <div className="bg-overlay"></div>
-      {props?.target === "home" ? <Home /> : <HomeProject {...props} />};
+      {props?.target === "home" ? <Home /> : <HomeProject {...props} />}
     </div>
   );
 }

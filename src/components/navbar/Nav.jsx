@@ -4,7 +4,38 @@ import { Link } from "react-scroll";
 import './Nav.scss';
 
 
-export default function Nav() {
+function NavHome(){
+  return(
+  <NavB>
+
+  <Link activeClass="active" to="hero" spy={true} smooth={true} duration={500} className="nav-link">Home</Link>
+  <Link href="/#about" activeClass="active" to="about" spy={true} smooth={true} duration={500} className="nav-link">About</Link>
+  <Link activeClass="active" to="experience" spy={true} smooth={true} duration={500} className="nav-link">Experience</Link>
+  <Link activeClass="active" to="education" spy={true} smooth={true} duration={500} className="nav-link">Education</Link>
+  <Link activeClass="active" to="projects" spy={true} smooth={true} duration={500} className="nav-link">Projects</Link>
+  <Link activeClass="active" to="certificates" spy={true} smooth={true} duration={500} className="nav-link">Certificates</Link>
+  <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} className="nav-link">Contact</Link>
+
+  </NavB>
+  );
+}
+
+function NavProjects(){
+  return(
+  <NavB>
+
+  <NavB.Link href="/#about">About</NavB.Link>
+  <NavB.Link href="/#experience">Experience</NavB.Link>
+  <NavB.Link href="/#education">Education</NavB.Link>
+  <NavB.Link href="/#projects">Projects</NavB.Link>
+  <NavB.Link href="/#certificates">Certificates</NavB.Link>
+  <NavB.Link href="/#contact">Contact</NavB.Link>
+
+  </NavB>
+  );
+}
+
+export default function Nav(props) {
 
     const [colorChange, setColorchange] = useState(false);
 
@@ -34,17 +65,7 @@ export default function Nav() {
 
       <Navbar.Collapse  className="justify-content-center"> 
       
-        <NavB>
-
-        <Link activeClass="active" to="hero" spy={true} smooth={true} duration={500} className="nav-link">Home</Link>
-        <Link activeClass="active" to="about" spy={true} smooth={true} duration={500} className="nav-link">About</Link>
-        <Link activeClass="active" to="experience" spy={true} smooth={true} duration={500} className="nav-link">Experience</Link>
-        <Link activeClass="active" to="education" spy={true} smooth={true} duration={500} className="nav-link">Education</Link>
-        <Link activeClass="active" to="projects" spy={true} smooth={true} duration={500} className="nav-link">Projects</Link>
-        <Link activeClass="active" to="certificates" spy={true} smooth={true} duration={500} className="nav-link">Certificates</Link>
-        <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} className="nav-link">Contact</Link>
-
-        </NavB> 
+      {props?.target === "home" ? <NavHome /> : <NavProjects />}
 
       </Navbar.Collapse>  
 
