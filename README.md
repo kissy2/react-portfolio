@@ -8,11 +8,11 @@ All you need to do is change the content of config.js in build/src repository wi
 
 ## Portfolio Sections
 
-✔️ Summary and About me ans Skills
-✔️ Work Experience
-✔️ Education
-✔️ Projects
-✔️ Achievements And Certifications 🏆
+✔️ Summary and About me ans Skills  
+✔️ Work Experience  
+✔️ Education  
+✔️ Projects  
+✔️ Achievements And Certifications 🏆  
 ✔️ Contact me
 
 ## Available Scripts
