@@ -5,7 +5,9 @@ check out the live demo here :
 
 ## Get Started
 
-All you need to do is change the content of config.js in build/src repository with your own data.
+Just fill out src/config.js with your own data to get your personal portfolio.  
+Customize the portfolio theme by using your preferred color scheme in the src/global.scss file.  
+Feel free to use it as is or customize it as much as you like.
 
 ## Portfolio Sections
 
