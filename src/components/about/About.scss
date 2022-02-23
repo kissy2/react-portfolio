@@ -1,28 +1,32 @@
 #about {
-
-.about-content {
+	.about-content {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 100px;
+	@media only screen and (max-width: 900px) {
+		& {
+			grid-template-columns: 1fr;
+			grid-gap: 80px;
+			text-align: center;
+		}
+	}
 }
 
 .about-content-title {
 	font-weight: 700;
 	margin-bottom: 30px;
 	font-size: 25px;
-	color:#333;
+	color: #333;
 }
 
 .about-content-details {
 	line-height: 1.7;
 	margin-bottom: 10px;
 	font-size: 17px;
+	&:last-child {
+		margin-bottom: 40px;
+	}
 }
-.about-content-details:last-child {
-    margin-bottom: 40px;
-
-}
-
 
 .skills {
 	display: flex;
@@ -37,17 +41,12 @@
 	font-weight: 500;
 	padding: 10px 20px;
 	font-size: 15px;
+	@media only screen and (max-width: 900px) {
+		& {
+			justify-content: center;
+	}
+}
 }
 
-	
-	@media only screen and (max-width: 900px){
-	.about-content {
-		grid-template-columns: 1fr;
-		grid-gap: 80px;
-		text-align: center;
-	}
-	.skills {
-				justify-content: center;
-	}
-	}
+
 }

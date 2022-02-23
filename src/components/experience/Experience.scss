@@ -1,95 +1,84 @@
 #experience {
-    background:#f6f7fa;
-   
-    .experience-timeline {
-        margin: 30px auto 0 auto;
-        position: relative;
-        max-width: 1000px;
-    }
-
-    .experience-timeline:before {
-        position: absolute;
-        content: '';
-        top: 0;
-        bottom: 0;
-        left: 303px;
-        right: auto;
-        height: 100%;
-        width: 3px;
-        background: #0062b9;
-        z-index: 0;
-    }
-    
-    .vtimeline-point {
-    position:relative;
-    display:block;
-    vertical-align:top;
-    margin-bottom:30px;
-    }
-    
-    .vtimeline-icon {
-    color:rgb(255,255,255);
-    width:50px;
-    height:50px;
-    background: #0062b9;
-    border-radius:50%;
-    float:left;
-    margin-left:280px;
-
-    }
-
-    .vtimeline-icon svg {
-     display: block; 
-     font-size: 2em; 
-     margin: 10px auto;
-    }
-    
-    .vtimeline-date {
-    width:260px;
-    text-align:right;
-    position:absolute;
-    left:0;
-    top:10px;
-    color: #444;
-    }
-    
-    .vtimeline-content {
-    margin-left:350px;
-    background: #fff;
-    border:1px solid rgb(230,230,230);
-    border-radius:3px;
-    text-align:left;
-    padding:15px;
-    }
-
-
-    .experience-timeline:after {
-    position: absolute;
-    content: '';
-    width: 3px;
-    height: 40px;
-    background: linear-gradient(to bottom, #0062b9, rgba(52,152,219,0));
-    top: 100%;
-    left: 303px;
-}
-
-@media only screen and (max-width: 768px){
-.vtimeline-icon {
-    margin-left: 0;
-}   
-.vtimeline-date {
-    width: auto;
-    text-align: left;
-    position: relative;
-    margin-bottom: 15px;
-    display: block;
-    margin-left: 70px;
-}
-.vtimeline-content {
-    margin-left: 70px;
-}
-.experience-timeline:before, .experience-timeline:after {
-    left: 23px;
-}
-}
+	.experience-timeline {
+		margin: 30px auto 0 auto;
+		position: relative;
+		max-width: 1000px;
+		&:before {
+			position: absolute;
+			content: '';
+			top: 0;
+			bottom: 0;
+			left: 303px;
+			right: auto;
+			height: 100%;
+			width: 3px;
+			background: #0062b9;
+			z-index: 0;
+		}
+		&:after {
+			position: absolute;
+			content: '';
+			width: 3px;
+			height: 40px;
+			background: linear-gradient(to bottom, #0062b9, rgba(52, 152, 219, 0));
+			top: 100%;
+			left: 303px;
+		}
+	}
+	.vtimeline-point {
+		position: relative;
+		display: block;
+		vertical-align: top;
+		margin-bottom: 30px;
+	}
+	.vtimeline-icon {
+		color: rgb(255, 255, 255);
+		width: 50px;
+		height: 50px;
+		background: #0062b9;
+		border-radius: 50%;
+		float: left;
+		margin-left: 280px;
+		svg {
+			display: block;
+			font-size: 2em;
+			margin: 10px auto;
+		}
+	}
+	.vtimeline-date {
+		width: 260px;
+		text-align: right;
+		position: absolute;
+		left: 0;
+		top: 10px;
+		color: #444;
+	}
+	.vtimeline-content {
+		margin-left: 350px;
+		background: #fff;
+		border: 1px solid rgb(230, 230, 230);
+		border-radius: 3px;
+		text-align: left;
+		padding: 15px;
+	}
+	@media only screen and (max-width: 768px) {
+		.vtimeline-icon {
+			margin-left: 0;
+		}
+		.vtimeline-date {
+			width: auto;
+			text-align: left;
+			position: relative;
+			margin-bottom: 15px;
+			display: block;
+			margin-left: 70px;
+		}
+		.vtimeline-content {
+			margin-left: 70px;
+		}
+		.experience-timeline:before,
+		.experience-timeline:after {
+			left: 23px;
+		}
+	}
 }

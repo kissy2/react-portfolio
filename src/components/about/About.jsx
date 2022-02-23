@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.scss';
 import { Container } from 'react-bootstrap';
+import { Link } from "react-scroll";
 import { config } from '../../config';
 
 export default function About() {
@@ -19,7 +20,8 @@ export default function About() {
               <p className="about-content-details" dangerouslySetInnerHTML={{ __html: config.about.getToKnowMe1 }}/>
               <p className="about-content-details" dangerouslySetInnerHTML={{ __html: config.about.getToKnowMe2 }}/>
             </div>
-            <a href="./#contact" className="btn btn-custom">Contact</a>
+            <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} className="btn btn-custom">Contact</Link>
+
           </div>
           <div>
             <h3 className="about-content-title">My Skills</h3>

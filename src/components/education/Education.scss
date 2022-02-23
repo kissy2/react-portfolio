@@ -6,34 +6,33 @@
     padding:15px;
     border:1px solid rgb(220,217,217);
     text-align:left;
-    }
-
-    .education-block h3 {
+    line-height: 24px;
+    h3 {
         float: left;
         margin: 0;
         font-size: 21px;
     }
-
-    .education-block span {
+    span {
         color: #74808a;
         float: right;
     }
-
-    .education-block h4 {
+    h4 {
         clear: both;
         margin: 5px 0px 15px;
         font-size: 18px;
         color: #74808a;
     }
-
-    .education-block p {
+    p {
         margin: 0;
         font-size: 16px;
     }
-
+    
     @media only screen and (max-width: 768px){
-.education-block h3, .education-block span {
-    float: none;
-}
-}
+        h3, span {
+            float: none;
+        }
+        }
+    }
+
+
 }

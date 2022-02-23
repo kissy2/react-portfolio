@@ -21,8 +21,8 @@ export default function Experience() {
             <span className="vtimeline-date">{ item.date }</span>
         
             <div className="vtimeline-content">
-            <h3>{ item.employerName }</h3>
-            <h4>{ item.jobTitle }</h4>
+            <h4>{ item.employerName }</h4>
+            <h5>{ item.jobTitle }</h5>
             <ul>
                 { item.jobTasks.map((item,id)=>{return <li key={ id }>{ item }</li>}) }
             </ul>

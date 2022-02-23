@@ -6,6 +6,7 @@ import { Container } from "react-bootstrap";
 import Particles from "react-tsparticles";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 import { FiDownload } from "react-icons/fi";
+import { Link } from "react-scroll";
 import { config } from "../../config";
 
 function Home() {
@@ -117,10 +118,9 @@ function Home() {
                 {config.hero.preTypeWriter} <span ref={el}></span>
               </h6>
               <div className="mt-4 pt-2">
-                <a className="btn btn-primary rounded me-2 mb-2">
-                  {config.hero.btn1}
-                </a>
-                <a className="btn btn-primary rounded mb-2">
+                <Link activeClass="active" to={ config.hero.btn1Link } spy={true} smooth={true} duration={500} className="btn btn-primary rounded me-2 mb-2">{config.hero.btn1}</Link>
+
+                <a className="btn btn-primary rounded mb-2" href={ config.hero.btn2Link } target="_blank" rel="noopener noreferrer" download>
                   {config.hero.btn2}
                   <FiDownload />
                 </a>

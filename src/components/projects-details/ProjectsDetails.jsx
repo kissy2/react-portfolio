@@ -21,9 +21,7 @@ export default function ProjectsDetails() {
         <Container className="project-content">
           <h3 className="project-title">Project Overview</h3>
 
-          <p className="project-desc">
-          { project.projectDescription } 
-          </p>
+          <p className="project-desc" dangerouslySetInnerHTML={{ __html: project.projectOverview }}/>
 
           <div className="project-tools-used">
             <h3 className="project-title">Tools Used</h3>
@@ -36,7 +34,7 @@ export default function ProjectsDetails() {
           <a href={ project.liveLink } className="btn-custom" target="_blank">
             Live Link
           </a>
-          <a href={ project.codeLink } className="btn-custom btn-custom-light" target="_blank">
+          <a href={ project.codeLink } className="btn-custom btn-custom-light" target="_blank" disabled={ true }>
             Code Link
           </a>
         </Container>

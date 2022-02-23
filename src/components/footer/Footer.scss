@@ -1,104 +1,86 @@
-#footer{
-    background-color: #263238 ;
-    text-align: center;
-    font-weight: 300;
-
-
-.title {
-    color:#fff;
-    font-size: 1.6rem;
-    margin: 2rem auto;
-    max-width: 300px;
-    opacity: 0.7;
-    line-height: 1.125;
-    word-break: break-word;
-    font-family: "Open Sens",sans-serif;
-
-}
-
-@media screen and (min-width: 769px){
-    .title {
-        max-width: 320px;
-    }}
-    
-    .footer-bg-faded{
-        background-color: rgba(0,0,0,0.2);
-        color: #bbb;
-        font-family: "Roboto",sans-serif;
-        font-size: 16px;
-        a:hover {
-            color: #fff;
+#footer {
+	background-color: #263238;
+	text-align: center;
+	font-weight: 300;
+	.title {
+		color: #fff;
+		font-size: 1.6rem;
+		margin: 2rem auto;
+		max-width: 300px;
+		opacity: 0.7;
+		line-height: 1.125;
+		word-break: break-word;
+		font-family: "Open Sens", sans-serif;
+        @media screen and (min-width: 769px) {
+            & {
+                max-width: 320px;
+            }
         }
+	}
 
-    }
-
-    .footer-bg-faded a{
-        text-decoration: none;
-        color: inherit;
-
-    }
-    .icon{
-        font-size: 1.25rem;
-        color:white;
-    }
-
-    .btn-fb {
-        background-color: #3b5998 ;
-    }
-
-    .btn-li {
-        background-color: #0082ca ;
-    }
-
-    .btn-git {
-        background-color: #333 ;
-    }
-
-    .mx-1 {
-        margin-left: .25rem ;
-    }
-
-    .btn-floating {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        margin: 10px;
-        overflow: hidden;
-        cursor: pointer;
-        border-radius: 50%;
-        -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
-        box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
-        -webkit-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
-        width: 47px;
-        height: 47px;
-        &:hover{
-            transform: scale(1.1);
-        }
-    }
-
-    
-
-    @-webkit-keyframes pound {
-        to {
-          transform: scale(1.1);
-        }
-      }
-      
-      @keyframes pound {
-        to {
-          transform: scale(1.1);
-        }
-      }
-
-    .pulse{
-        width: 20px;
-        height: 20px;
-        margin: 0 5px;
-        color: #E90606;
-        animation: pound 0.35s infinite alternate;
-        -webkit-animation: pound 0.35s infinite alternate;
-    }
-
-    
+	.footer-bg-faded {
+		background-color: rgba(0, 0, 0, 0.2);
+		color: #bbb;
+		font-family: "Roboto", sans-serif;
+		font-size: 16px;
+		a {
+			text-decoration: none;
+			color: inherit;
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+	.icon {
+		font-size: 1.25rem;
+		color: white;
+	}
+	.btn-fb {
+		background-color: #3b5998;
+	}
+	.btn-li {
+		background-color: #0082ca;
+	}
+	.btn-git {
+		background-color: #333;
+	}
+	.mx-1 {
+		margin-left: .25rem;
+	}
+	.btn-floating {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		margin: 10px;
+		overflow: hidden;
+		cursor: pointer;
+		border-radius: 50%;
+		-webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+		box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		width: 47px;
+		height: 47px;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+	@-webkit-keyframes pound {
+		to {
+			transform: scale(1.1);
+		}
+	}
+	@keyframes pound {
+		to {
+			transform: scale(1.1);
+		}
+	}
+	.pulse {
+		width: 20px;
+		height: 20px;
+		margin: 0 5px;
+		color: #E90606;
+		animation: pound 0.35s infinite alternate;
+		-webkit-animation: pound 0.35s infinite alternate;
+	}
 }
