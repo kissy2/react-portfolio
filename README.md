@@ -1,6 +1,7 @@
 ## Introduction
 
 Use this template if you need a developers, data scientists, software engineers quick portfolio.
+check out the live demo here : 
 
 ## Get Started
 
