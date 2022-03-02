@@ -89,7 +89,7 @@ export const config={
             ✔️ Contact me<br/>
             `,
             skills : ["React JS", "HTML", "CSS", "Javascript", "Bootstrap" ],
-            liveLink : "",
+            liveLink : "https://lucid-hopper-b080e7.netlify.app/",
             codeLink : "https://github.com/kissy2/react-portfolio",
         },
         {
@@ -182,7 +182,7 @@ export const config={
             name : "Convolutional Neural Networks",
             instructor : "DeepLearning.AI",
             issuer : "Coursera",
-            link : ""
+            link : "https://coursera.org/verify/6KPWGLQSBCV9"
         },
         {
             name : "DevNet Associate",
@@ -191,16 +191,16 @@ export const config={
             link : "https://www.credly.com/badges/60228c98-1c86-4a0c-809f-7694fac760dd"
         },
         {
-            name : "Introduction to Cloud Development with HTML, CSS, and JavaScript",
-            instructor : "IBM",
-            issuer : "edX",
-            link : "https://courses.edx.org/certificates/db9ebb6cc66e44708634edd5859d5b77"
-        },
-        {
             name : "Developing Cloud Applications with Node.js and React",
             instructor : "IBM",
             issuer : "edX",
             link : "https://courses.edx.org/certificates/812e3d9ba6644dbabf93446784dac591"
+        },
+        {
+            name : "Exploring GraphQL: A Query Language for APIs",
+            instructor : "Linux Foundation",
+            issuer : "edX",
+            link : "https://courses.edx.org/certificates/f600955068df47599dd85c7a7a39715a"
         },
         {
             name : "Deep Learning Fundamentals with Keras",
@@ -215,10 +215,10 @@ export const config={
             link : "https://courses.edx.org/certificates/3e3d5e448d184cf49583b477124cabe7"
         },
         {
-            name : "Exploring GraphQL: A Query Language for APIs",
-            instructor : "Linux Foundation",
+            name : "Introduction to Cloud Development with HTML, CSS, and JavaScript",
+            instructor : "IBM",
             issuer : "edX",
-            link : "https://courses.edx.org/certificates/f600955068df47599dd85c7a7a39715a"
+            link : "https://courses.edx.org/certificates/db9ebb6cc66e44708634edd5859d5b77"
         },
         {
             name : "Introduction to Cloud Infrastructure Technologies",

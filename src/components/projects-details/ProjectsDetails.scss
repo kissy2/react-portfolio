@@ -1,3 +1,4 @@
+@import '../../global.scss';
 #project-details {
 	.project-content {
 		width: 100%;
@@ -47,12 +48,18 @@
 		font-size: 15px;
 	}
 	.btn-custom-light {
-		color: #0062b9;
+		color: $theme;
 		background: #fff;
-		border: 1px solid #0062b9;
+		border: 1px solid $theme;
 	}
 	.btn-custom {
 		margin-right: 20px;
+		user-select: none;
+
+		&[disabled] {
+			pointer-events: none;
+			opacity: .85;
+		}
 	}
 	#laptop {
 		margin-bottom: 80px;

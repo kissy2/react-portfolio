@@ -1,3 +1,4 @@
+$theme : #0062b9;
 body{
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -39,7 +40,7 @@ h3, h4{
     top: calc(100% + 10px);
     height: 5px;
     width: 30px;
-    background: #0062b9;
+    background: $theme;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
@@ -81,8 +82,8 @@ h3, h4{
     border-radius: 5px;
     box-shadow: rgba(0,0,0,0.15) 0 5px 15px 0;
     padding: 14px 47px;
-    background-color : #0062b9;
-    border: 1px solid #0062b9;
+    background-color : $theme;
+    border: 1px solid $theme;
     color: white;
     font-size: 15px;
     -webkit-box-shadow: none ;

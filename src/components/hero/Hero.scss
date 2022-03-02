@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 #hero {
 	background-image: url('../../static/hero-bg.jpg');
 	background-position: center;
@@ -66,7 +68,7 @@
 			-webkit-transition: all 0.3s ease-out;
 			transition: all 0.3s ease-out;
 			box-shadow: 0 3px 5px 0 rgb(45 132 251 / 30%);
-			border-color: #0062b9 !important;
+			border-color: $theme !important;
 		}
 	}
 	h6 span {

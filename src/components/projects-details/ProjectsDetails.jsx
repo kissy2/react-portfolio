@@ -29,12 +29,12 @@ export default function ProjectsDetails() {
               { project.skills.map((item,id)=>{ return <div key={ id } className="skill"> { item } </div> }) }
             </div>
           </div>
-
+          {console.log(project)}
           <h3 className="project-title">See Live</h3>
-          <a href={ project.liveLink } className="btn-custom" target="_blank">
+          <a href={ project.liveLink } className="btn-custom" target="_blank" disabled={ project.liveLink.trim() === "" ? true : false }>
             Live Link
           </a>
-          <a href={ project.codeLink } className="btn-custom btn-custom-light" target="_blank" disabled={ true }>
+          <a href={ project.codeLink } className="btn-custom btn-custom-light" target="_blank" disabled={ project.codeLink.trim() === "" ? true : false }>
             Code Link
           </a>
         </Container>
