@@ -13,11 +13,31 @@ export const config={
         titleDescription : "I'm a Software Engineering Student completely obsessed with innovation as well as the newest instructornologies",
         getToKnowMe1 : "Hey! It's <Strong>Aymen Belhaj</strong> and I'm a <strong> Software Engineer </strong> Student located in Aveiro, Portugal. Fascinated by the field of computer science since my childhood, it was obvious to me that I would eventually turn to engineering. I did some remote projects as a <Strong>FreeLancer</Strong> on the side for my friends, which allowed me to broaden my knowledge and learn a lot in addition to the courses I took at university.",
         getToKnowMe2 : "I am <Strong>dynamic</Strong>, <Strong>flexible</Strong> and able to adapt quickly to new situations and environment. I love what I do and, therefore, I do it well. <Strong>If you're looking for a developer to add to your team</Strong>, I'd love to hear from you! Feel free to <strong>contact</strong> me here.",
-        Skills : ["Python", "Django", "Javascript", "React JS", "Node JS", "PHP", "Java", "J2EE", "HTML", "CSS", "BootStrap","MongoDB", "MySQL", "Azure", "AWS EC2", "Docker", "Docker-Compose", "Jenkins", "Github Actions", "Git", "Networking" ],    
+        Skills : ["Python", "Django", "Flask", "Javascript", "React JS", "Node JS", "Express JS", "PHP", "Java", "Scala", "J2EE", "C#", "HTML5", "CSS3", "BootStrap","MongoDB", "MySQL", "Azure", "AWS EC2", "Docker", "Docker-Compose", "Jenkins", "Github Actions", "Git", "Networking", "Automation", "Deep Learning" ],    
     },
     experience : [
         {
-        date : "July 2021 - August 2021",
+        date : "Mars 2022 - July 2022",
+        employerName : "Picadvanced Portugal",
+        jobTitle :  "Automation & Web Developer [Internship]",
+        jobTasks : [
+            "Built a deep learning model that detects the objects with which the robot must interact (XFP modules, fiber optic cables, Testing board, etc).",
+            "Wrote a python automation script to send movement and gripping commands to the robot via a socket connection after a real-time image analysis. ",
+            "Create a monitoring web application to collect statistics and provide tracking of the robot's work and real-time access to the camera attached to the robot arm.",
+            "Deployed this application to Microsoft Azure cloud service.",
+        ],},
+        {
+            date : "September 2021 - February 2022",
+            employerName : "Rama solutions",
+            jobTitle :  "Full-stack developer [Internship]",
+            jobTasks : [
+                "Create well-designed, tested code using best practices for website development, including mobile and responsive site design.",
+                "Create websites and user interfaces, using standard HTML/CSS practices, while incorporating data from back-end databases and API.",
+                "Develop websites backend logic using PHP and Django(python).",
+                "Host web applications to azure cloud.",
+            ],},
+        {
+        date : "June 2021 - August 2021",
         employerName : "Ministry of Social Affairs",
         jobTitle :  "Web Developer [Internship]",
         jobTasks : [
@@ -28,7 +48,7 @@ export const config={
         {
         date : "Mars 2021 - June 2021",
         employerName : "Kreatorz",
-        jobTitle :  "Python Developer [Internship]",
+        jobTitle :  "Automation Python Developer [Internship]",
         jobTasks : [
             "Built a task automation software to eliminate repetitive activities. ",
             "Reverse engineered the target software in order to implement the IPC with the bot.",
@@ -167,6 +187,12 @@ export const config={
     certificatesLimiter : 6,
     certificates : [
         {
+            name : "Microsoft Azure Administrator",
+            instructor : "Microsoft",
+            issuer : "Microsoft",
+            link : "https://www.credly.com/badges/1706b6bb-8ec7-4901-8be0-25bfb9b990a1"
+        },
+        {
             name : "Machine Learning for Data Science and Analytics",
             instructor : "Columbia University",
             issuer : "edX",
@@ -201,6 +227,12 @@ export const config={
             instructor : "Linux Foundation",
             issuer : "edX",
             link : "https://courses.edx.org/certificates/f600955068df47599dd85c7a7a39715a"
+        },
+        {
+            name : "Microsoft Azure: Security, Compliance, and Identity Fundamentals",
+            instructor : "Microsoft",
+            issuer : "Microsoft",
+            link : "https://www.credly.com/badges/0c7e5674-34d6-44af-9b4d-2605e8db1b53"
         },
         {
             name : "Deep Learning Fundamentals with Keras",
@@ -255,11 +287,11 @@ export const config={
     contact : {
         titleDescription : "If you wanna get in touch, talk to me about a project collaboration or just say hi, fill up the awesome form below to drop me an email. Old-fashioned phone calls work too.",
         phoneDescription : "Interested in working together ?<br/>Just pick up the phone and let's talk.",
-        phoneNumber : "+216 56025656",
+        phoneNumber : "+351 931433649",
         emailDescription : "If you're wondering about any thing just shoot me an email and let's talk.",
         email : "medaymenbelhaj@gmail.com",
-        locationDescription : "R. da Pilôta 7, 3810-441, Portugal,<br/>Aveiro District, Portugal 234",
-        location : "https://goo.gl/maps/XdVY7Jka5j85axQt7",
+        locationDescription : "R. de Dr. Manuel das Neves 12, 3810-164 Aveiro, Portugal",
+        location : "https://goo.gl/maps/uDUp6oxWWoPi24tN7",
         form : "https://formspree.io/f/mrgjpwnb"
     },
     footer : {

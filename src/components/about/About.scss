@@ -31,6 +31,10 @@
 .skills {
 	display: flex;
 	flex-wrap: wrap;
+	@media only screen and (max-width: 900px) {
+		& {
+			justify-content: center;
+	}
 }
 
 .skill {
@@ -41,10 +45,7 @@
 	font-weight: 500;
 	padding: 10px 20px;
 	font-size: 15px;
-	@media only screen and (max-width: 900px) {
-		& {
-			justify-content: center;
-	}
+
 }
 }
 
