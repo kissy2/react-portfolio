@@ -2,20 +2,57 @@ export const config={
     hero : {
         name : "Here I'am Aymen Belhaj",
         preTypeWriter : "I'm a Passionate",
-        typeWriter : ["Software Engineering Student", "Web Developer", ],
+        typeWriter : ["Software Engineer", "Cloud Infrastructure Architect", ],
         btn1 : "Hire Me",
         btn2 : "Download CV",
         btn1Link : "contact",
-        btn2Link : "https://drive.google.com/file/d/17zpCOqkj9dF_cueXVL9pw-Vl6TdzRipj/view?usp=sharing",
+        btn2Link : "https://drive.google.com/file/d/1Kl2VpYjWcB3OD5gO15yNfAEJQDRw7MkR/view?usp=sharing",
 
     },
     about : {
-        titleDescription : "I'm a Software Engineering Student completely obsessed with innovation as well as the newest instructornologies",
-        getToKnowMe1 : "Hey! It's <Strong>Aymen Belhaj</strong> and I'm a <strong> Software Engineer </strong> Student located in Aveiro, Portugal. Fascinated by the field of computer science since my childhood, it was obvious to me that I would eventually turn to engineering. I did some remote projects as a <Strong>FreeLancer</Strong> on the side for my friends, which allowed me to broaden my knowledge and learn a lot in addition to the courses I took at university.",
-        getToKnowMe2 : "I am <Strong>dynamic</Strong>, <Strong>flexible</Strong> and able to adapt quickly to new situations and environment. I love what I do and, therefore, I do it well. <Strong>If you're looking for a developer to add to your team</Strong>, I'd love to hear from you! Feel free to <strong>contact</strong> me here.",
-        Skills : ["Python", "Django", "Flask", "Javascript", "React JS", "Node JS", "Express JS", "PHP", "Java", "Scala", "J2EE", "C#", "HTML5", "CSS3", "BootStrap","MongoDB", "MySQL", "Azure", "AWS EC2", "Docker", "Docker-Compose", "Jenkins", "Github Actions", "Git", "Networking", "Automation", "Deep Learning" ],    
+        titleDescription : "I'm a software engineer completely obsessed with innovation as well as the newest technologies.",
+        getToKnowMe1: "Hello! I'm <strong>Aymen Belhaj</strong>, a <strong>Software Engineer</strong> now based in Lisbon, Portugal. Ever since my childhood, I've been captivated by computer science, which naturally led me to a career in software engineering. My career journey has allowed me to amass broad experiences, from remote freelance projects to roles in startups and globally renowned tech companies. I have recently worked with a sports betting startup as a <strong>Backend Engineer & Cloud Infrastructure Architect</strong>. Before that, I held the position of <strong>OSS Engineer at Microsoft</strong>.",
+        getToKnowMe2: "Adaptability, <strong>flexibility</strong>, and <strong>dynamic</strong> problem-solving are hallmarks of my work ethic. Whether it's developing robust backend systems, designing secure cloud architectures, or troubleshooting complex issues, I bring passion, dedication, and a keen eye for detail to every project. <strong>If you're on the lookout for a dedicated developer with diverse experience</strong>, I'd love to hear from you! Feel free to <strong>connect</strong> with me here.",
+        Skills : ["PHP", "Laravel", "Javascript", "React JS", "Node JS", "Express JS", "Python", "Django", "Flask", "HTML5", "CSS3", "BootStrap","MongoDB", "MySQL", "Azure", "AWS", "Serverless Computing", "Docker", "Azure Devops", "Github Actions", "Gitlab CI", "Git", "Cloudflare", "Enclave", "Jamf MDM","Epp DLP","Networking", "Automation", "Deep Learning"],    
     },
     experience : [
+        {
+            date: "May 2022 – Aug 2023",
+            employerName: "HiTech Solutions",
+            jobTitle: "Back End Developer",
+            jobTasks: [
+                "System Integration: I was instrumental in integrating a wide array of casino providers such as Pragmatic, Evolution, BetSolutions, Spribe, Spinomenal, 3Oaks, Kaga, SmartSoft, 1x2gaming, IronDogStudios, Gaming-Corps, Leap, and more. I also integrated various payment methods like Paybrokers, ZenetPay, AstroPay, PagSmile, Pay42, PayPal, Skrill, Neteller, etc.",
+                "High-Quality Coding: My commitment to the highest standards of clean coding during service integration, combined with meticulous unit and feature tests, ensured the scalability, maintainability, and efficiency of the platform.",
+                "Performance Optimization: Leveraging the power of Laravel Octane, I was able to significantly boost the platform's performance, achieving up to a seven-fold increase in requests per second.",
+                "Database Management: I used query optimization and correct indexing to MySQL databases for efficient data management. Furthermore, I implemented MongoDB for handling schema-less objects such as sport events from Sportradar."
+            ]
+        },
+        {
+            date: "May 2022 – Aug 2023",
+            employerName: "HiTech Solutions",
+            jobTitle: "Cloud Infrastructure Architect",
+            jobTasks: [
+                "Cloud Deployment: I deployed the platform to a serverless environment on AW Lambda using Laravel Vapor.",
+                "AWS Configuration: Configured Multi-AZ for critical components like the RDS database and secured payment method certificates using AWS S3 encryption.",
+                "Security Measures: I introduced cloudflare lockdown zones for the admin backoffice and used Cloudflare for DDoS protection, WAF rules, rate-limiting rules, and implemented customized OWASP rule sets, AWS Shield, and Web ACL rules for added security.",
+                "Secure Codebase: Leveraged GitLab for self-hosting and implemented a zero trust network.",
+                "Data Leakage Protection: Managed hosting and configuration of the Endpoint Protector DLP solution.",
+                "Edge Caching: To deliver faster response times, I implemented Cloudflare edge caching to serve content closer to the end-users."
+            ]
+        },
+        {
+            date: "Jul 2022 – Jun 2023",
+            employerName: "Microsoft",
+            jobTitle: "OSS Engineer",
+            jobTasks: [
+                "Troubleshooting: Developed a deep understanding of various open-source stacks, enabling efficient troubleshooting of a broad range of issues.",
+                "Azure Cloud Services: Acquired comprehensive hands-on experience with Azure app services.",
+                "Deployment and Automation: Guided clients in seamlessly deploying their applications to Azure services.",
+                "Networking: Gained solid comprehension of diverse networking concepts and technologies.",
+                "Knowledge Sharing: Participated in daily triage sessions and regular knowledge sharing within the team.",
+                "Collaboration & Premier Support: Worked closely with teams and CSAMs to ensure customer satisfaction."
+            ]
+        },
         {
         date : "Mars 2022 - July 2022",
         employerName : "Picadvanced Portugal",
@@ -25,7 +62,8 @@ export const config={
             "Wrote a python automation script to send movement and gripping commands to the robot via a socket connection after a real-time image analysis. ",
             "Create a monitoring web application to collect statistics and provide tracking of the robot's work and real-time access to the camera attached to the robot arm.",
             "Deployed this application to Microsoft Azure cloud service.",
-        ],},
+            ]
+        },
         {
             date : "September 2021 - February 2022",
             employerName : "Rama solutions",
@@ -35,7 +73,8 @@ export const config={
                 "Create websites and user interfaces, using standard HTML/CSS practices, while incorporating data from back-end databases and API.",
                 "Develop websites backend logic using PHP and Django(python).",
                 "Host web applications to azure cloud.",
-            ],},
+            ]
+        },
         {
         date : "June 2021 - August 2021",
         employerName : "Ministry of Social Affairs",
@@ -44,7 +83,8 @@ export const config={
             "Created a GLPI plugin that detect threats based on the national vulnerability database.",
             "Automate reporting with graphical and statistical information about the vulnerabilities of each information system.",
             "Built a system to notify the instructornicians about vulnerabilities in their information systems",
-        ],},
+            ]
+        },
         {
         date : "Mars 2021 - June 2021",
         employerName : "Kreatorz",
@@ -53,7 +93,8 @@ export const config={
             "Built a task automation software to eliminate repetitive activities. ",
             "Reverse engineered the target software in order to implement the IPC with the bot.",
             "Deployed this application as a Sass solution to Microsoft Azure cloud service.",
-        ],},
+            ]
+        },
         {
         date : "June 2020 - August 2020",
         employerName : "Comprod",
@@ -62,7 +103,8 @@ export const config={
             "Built a fully functional e-commerce website to sell painting materials with React.js, Node.js and Express.js.",
             "Integrated a chatbot functionality to enhance user experience.",
             "Improve search engine optimization (SEO) by following some of the best practices.",
-        ],},
+            ]
+        },
         {
         date : "February 2019 - May 2019",
         employerName : "Alfaros",
@@ -71,7 +113,7 @@ export const config={
             "Developed a system to optimize the work of the SOC team based on the SIEM solution from SolarWinds",
             "Built a fully functional web application using Python, Django framework, HTML,CSS,Chart.js, and JavaScript.",
             "Implemented a ticket management system to facilitate the coordination between the SOC team.",
-        ],},
+        ]},
     ],
     education : [
         {
@@ -287,11 +329,11 @@ export const config={
     contact : {
         titleDescription : "If you wanna get in touch, talk to me about a project collaboration or just say hi, fill up the awesome form below to drop me an email. Old-fashioned phone calls work too.",
         phoneDescription : "Interested in working together ?<br/>Just pick up the phone and let's talk.",
-        phoneNumber : "+351 931433649",
+        phoneNumber : "+351 931945879",
         emailDescription : "If you're wondering about any thing just shoot me an email and let's talk.",
         email : "medaymenbelhaj@gmail.com",
-        locationDescription : "R. de Dr. Manuel das Neves 12, 3810-164 Aveiro, Portugal",
-        location : "https://goo.gl/maps/uDUp6oxWWoPi24tN7",
+        locationDescription : "Lisbon, Portugal",
+        location : "https://goo.gl/maps/Dkrpy72J4Pb6Ascf7",
         form : "https://formspree.io/f/mrgjpwnb"
     },
     footer : {
